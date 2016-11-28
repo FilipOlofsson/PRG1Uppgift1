@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -18,13 +19,21 @@ void uppgift1() {
 	}
 }
 void uppgift2() {
-	
+	double summa = 0;
+	double i = 1;
+	while((1/i) > 0.00001) {
+		summa += (1/i);
+		i++;
+		summa -= (1/i);
+		i++;
+	}
+	cout << i << " " << summa << endl;
 }
 void uppgift3() {
 	
 }
 
 int main() {
-	uppgift1();
+	uppgift2();
 	
 }
