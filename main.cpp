@@ -26,7 +26,7 @@ void uppgift2() {											// Lösning på uppgift 2. Fungerar mycket bra.
 		summa -= (1/i);										// Tar bort 1/i från summan.
 		i++;												// Lägger till 1 till i.
 	}
-	cout << i << " " << summa << endl;						// Skriver ut summan av alla talen.
+	cout << summa << endl;									// Skriver ut summan av alla talen.
 }
 
 void uppgift3() {
